@@ -129,5 +129,10 @@ public class RolePrefixTests {
 		public MessageService messageService() {
 			return new HelloWorldMessageService();
 		}
+
+		@Bean
+		public static DefaultRolesPrefixPostProcessor defaultRolesPrefixPostProcessor() {
+			return new DefaultRolesPrefixPostProcessor();
+		}
 	}
 }

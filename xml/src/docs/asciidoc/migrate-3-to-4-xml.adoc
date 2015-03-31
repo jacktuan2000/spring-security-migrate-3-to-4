@@ -1934,7 +1934,7 @@ For example:
 ----
 
 *Alternatively*, the application would enable CSRF.
-For more details refer to <<csrf-using,Using Spring Security CSRF Protection>>.
+For more details refer to {spring-security-docs-url}csrf-using[Using Spring Security CSRF Protection]
 
 [[m3to4-xmlnamespace-remember-me]]
 === Migrating <remember-me>
